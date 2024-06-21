@@ -1,0 +1,273 @@
+@media (max-width:992px) {
+
+    .custom-bg {
+        background-color: #1e202b;
+    }
+
+}
+
+
+body {
+    background-color: #1E202B;
+}
+
+.navbar {
+    background-color: #1e202b;
+
+    .navCaption {
+        h3 {
+            color: white;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        span {
+            color: #a5a6ac;
+            font-size: 10px;
+        }
+    }
+
+    .font-navbar {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .nav-item .nav-ank {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        position: relative;
+
+
+
+    }
+
+    .nav-item {
+        background-color: #1e202b;
+        border-radius: 20px;
+        transition: all .3s;
+    }
+
+
+    .nav-item:hover {
+        background-color: #109ACF;
+    }
+
+
+
+    .nav-item .nav-ank2 {
+        list-style: none;
+        padding: 0;
+        margin-left: 16px;
+    }
+
+}
+
+.font-navbar {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.backGround {
+    background-image: url(../img/banner.png);
+    background-position: local;
+    background-size: auto;
+
+
+
+
+
+}
+
+
+#inputs {
+    .inputLine1 {
+        padding-top: 80px;
+        position: relative;
+
+        .in-put {
+            background-color: #1e202b;
+            width: 100%;
+            padding: 20px 50px 20px 20px;
+            border-color: #1e202b;
+            color: rgb(180, 168, 168);
+        }
+
+        .in-put::placeholder {
+
+            color: rgb(180, 168, 168);
+        }
+
+
+        .button {
+            position: absolute;
+            padding: 14px 40px;
+            right: 7px;
+            top: 86px;
+        }
+    }
+
+}
+
+
+#tableWeather {
+    margin-top: 80px;
+
+    .row1 {
+        --bs-gutter-x: -0.5rem !important;
+
+        h4 {
+            color: #bfc1c8;
+            font-size: 15px;
+            padding: 10px 10px;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        span {
+            color: #bfc1c8;
+            font-size: 12px;
+            padding: 10px 10px;
+            font-weight: 400;
+        }
+
+        .line1 {
+            background-color: rgb(45, 48, 61);
+            border-top-left-radius: 10px;
+
+
+        }
+
+        .line2 {
+            background-color: #222530;
+
+
+        }
+
+        .line3 {
+            background-color: rgb(45, 48, 61);
+            border-top-right-radius: 10px;
+
+        }
+
+        .col2 {
+            background-color: #3d4052;
+            border-bottom-left-radius: 10px;
+
+            h3 {
+                font-size: 22px;
+                font-weight: 400;
+                color: #bfc1c8;
+
+            }
+
+            h1 {
+                font-size: 100px;
+                color: white;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 16px;
+                color: #109ACF;
+                font-weight: 400;
+            }
+
+
+            .icons {
+                span {
+                    color: #bfc1c8;
+                }
+            }
+        }
+
+
+        .col3 {
+            background-color: #2f3342;
+            height: 351px;
+
+
+            h3 {
+                font-size: 40px;
+            }
+
+            h2 {
+                color: white;
+                font-size: 22px;
+                font-weight: 700;
+            }
+
+
+            h4 {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            span {
+                font-size: 16px;
+                color: #109ACF;
+                font-weight: 400;
+
+            }
+
+        }
+
+
+    }
+}
+
+
+
+#contact {
+
+
+
+    .bg {
+        background-color: #373a4b;
+    }
+
+    .inputLine2 {
+        position: relative;
+
+        .in-put2 {
+
+            background-color: #1e202b;
+            width: 100%;
+            padding: 10px 50px 20px 25px;
+            position: relative;
+            border-color: #1e202b;
+            color: rgb(180, 168, 168)
+        }
+
+        .in-put2::placeholder {
+
+            color: rgb(180, 168, 168);
+        }
+
+        .button {
+            position: absolute;
+            padding: 10px 19px;
+            right: 6px;
+            bottom: 5px;
+        }
+    }
+
+
+    .social-links {
+        a {
+            font-size: 30px;
+        }
+    }
+
+    .copyRight {
+        p {
+            font-size: 15px;
+            color: white;
+        }
+
+    }
+
+
+
+}
